@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Price List Produk Terlaris</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 20px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #4a90e2;
+      margin-bottom: 5px;
+    }
+    p.subtitle {
+      text-align: center;
+      margin-top: 0; margin-bottom: 20px;
+      color: #666;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 15px 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 6px;
+    }
+    .note {
+      font-style: italic;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+      text-align: center;
+      color: #555;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
+      gap: 18px;
+    }
+    .product-card {
+      background: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 1px 4px rgb(0 0 0 / 0.1);
+      transition: box-shadow 0.2s ease-in-out;
+    }
+    .product-card:hover {
+      box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+    }
+    .product-card img {
+      max-width: 100%;
+      height: 120px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      background: white;
+      padding: 5px;
+    }
+    .product-name {
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+      min-height: 38px;
+      color: #222;
+    }
+    .product-price {
+      font-weight: bold;
+      color: #4a90e2;
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.85rem;
+      color: #888;
+    }
+    @media (max-width: 480px) {
+      .product-card img {
+        height: 90px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Price List Produk Terlaris</h1>
+    <p class="subtitle">
+      Margin 50% | Kurs Rp500 = ฿1 | Sudah termasuk ongkir Rp250.000/kg
+    </p>
+    <p class="note">Untuk produk lain, silakan chat admin ya 😊</p>
+
+    <div class="products">
+      <div class="product-card">
+        <img src="https://cf.shopee.co.id/file/fb26cbd2346d0b1f51d5ab5a8c6b904e" alt="Skintific Cushion Gold Fullpack" />
+        <div class="product-name">Skintific Cushion Gold Fullpack</div>
+        <div class="product-price">฿560</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0209/8177/1021/products/DSCF2950_1024x1024.jpg?v=1614173357" alt="Skintific Cushion Gold Refill" />
+        <div class="product-name">Skintific Cushion Gold Refill</div>
+        <div class="product-price">฿410</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0062/2692/3316/products/untitled-132_1024x1024.jpg?v=1646848637" alt="Skintific Cushion Biru Fullpack" />
+        <div class="product-name">Skintific Cushion Biru Fullpack</div>
+        <div class="product-price">฿590</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0209/8177/1021/products/skintific-blue-cushion-refill-01_360x.jpg?v=1614301386" alt="Skintific Cushion Biru Refill" />
+        <div class="product-name">Skintific Cushion Biru Refill</div>
+        <div class="product-price">฿410</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cf.shopee.co.id/file/01e4d6b68cc68b8ee390bc3c2c162a11" alt="5X Ceramide Moisturizer 30g" />
+        <div class="product-name">5X Ceramide Moisturizer 30g</div>
+        <div class="product-price">฿450</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0287/0998/1096/products/Moisturizer_Niacinamide_720x.jpg?v=1673436928" alt="MSH Niacinamide Moisturizer 30g" />
+        <div class="product-name">MSH Niacinamide Moisturizer 30g</div>
+        <div class="product-price">฿450</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cf.shopee.co.id/file/1e499d4ff940b4d17aa09520914e389d" alt="AHA BHA PHA Peeling" />
+        <div class="product-name">AHA BHA PHA Peeling Solution</div>
+        <div class="product-price">฿460</div>
+      </div>
+      <div class="product-card">
+        <img src="https://www.scarlett-whitening.com/wp-content/uploads/2020/08/body-cream.jpg" alt="Scarlett Body Cream" />
+        <div class="product-name">Scarlett Body Cream All Variant</div>
+        <div class="product-price">฿310</div>
+      </div>
+      <div class="product-card">
+        <img src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/9/17/7763299/7763299_10e7d47b-4844-4f9a-b7a0-b8db382ca3f0_800_800.jpg" alt="Scarlett Parfum" />
+        <div class="product-name">Scarlett Parfum All Variant</div>
+        <div class="product-price">฿340</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cf.shopee.co.id/file/1a45f9c0c91bfa09bf023cb0e5a67418" alt="Scarlett Day & Night Cream" />
+        <div class="product-name">Scarlett Day & Night Cream</div>
+        <div class="product-price">฿230</div>
+      </div>
+      <div class="product-card">
+        <img src="https://elformula.com/wp-content/uploads/2022/07/Intensive-Peeling-Solution-1.jpg" alt="Elformula Moisturizer" />
+        <div class="product-name">Elformula Moisturizer</div>
+        <div class="product-price">฿460</div>
+      </div>
+      <div class="product-card">
+        <img src="https://elformula.com/wp-content/uploads/2021/04/peeling-serum-300x300.jpg" alt="Elformula Peeling Serum" />
+        <div class="product-name">Elformula Peeling Serum</div>
+        <div class="product-price">฿460</div>
+      </div>
+      <div class="product-card">
+        <img src="https://elformula.com/wp-content/uploads/2021/04/sunscreen.jpg" alt="Elformula Sunscreen" />
+        <div class="product-name">Elformula Sunscreen</div>
+        <div class="product-price">฿400</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0062/2692/3316/products/FaceWash100ml_1024x1024.jpg?v=1646848610" alt="Kahf Face Wash 100ml" />
+        <div class="product-name">Kahf Face Wash 100ml</div>
+        <div class="product-price">฿200</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0062/2692/3316/products/FaceWash50ml_1024x1024.jpg?v=1646848610" alt="Kahf Face Wash 50ml" />
+        <div class="product-name">Kahf Face Wash 50ml</div>
+        <div class="product-price">฿130</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0062/2692/3316/products/SunscreenMoist_1024x1024.jpg?v=1646848612" alt="Kahf Sunscreen Moisturizer" />
+        <div class="product-name">Kahf Sunscreen Moisturizer</div>
+        <div class="product-price">฿190</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0657/6821/products/Glad2Glow_Facewash_1000x.jpg?v=1663142220" alt="Glad 2 Glow Face Wash" />
+        <div class="product-name">Glad 2 Glow Face Wash</div>
+        <div class="product-price">฿180</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0657/6821/products/Glad2Glow_Toner_1000x.jpg?v=1663142220" alt="Glad 2 Glow Toner" />
+        <div class="product-name">Glad 2 Glow Toner</div>
+        <div class="product-price">฿210</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0657/6821/products/Glad2Glow_Serum_1000x.jpg?v=1663142220" alt="Glad 2 Glow Serum" />
+        <div class="product-name">Glad 2 Glow Serum</div>
+        <div class="product-price">฿190</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0657/6821/products/Glad2Glow_Moist_55g_1000x.jpg?v=1663142220" alt="Glad 2 Glow Moisturizer 55g" />
+        <div class="product-name">Glad 2 Glow Moisturizer 55g</div>
+        <div class="product-price">฿250</div>
+      </div>
+      <div class="product-card">
+        <img src="https://cdn.shopify.com/s/files/1/0657/6821/products/Glad2Glow_Moist_30g_1000x.jpg?v=1663142220" alt="Glad 2 Glow Moisturizer 30g" />
+        <div class="product-name">Glad 2 Glow Moisturizer 30g</div>
+        <div class="product-price">฿180</div>
+      </div>
+      <div class="product-card">
+        <img src="https://www.cosrx.com/media/wysiwyg/lowphsalicylic50ml_front_1_500x500.jpg" alt="COSRX FW Salicylic 50ml" />
+        <div class="product-name">COSRX FW Salicylic 50ml</div>
+        <div class="product-price">฿250</div>
+      </div>
+      <div class="product-card">
+        <img src="https://www.cosrx.com/media/wysiwyg/lowphcleanser50ml_front_500x500.jpg" alt="COSRX Low pH Cleanser 50ml" />
+        <div class="product-name">COSRX Low pH Cleanser 50ml</div>
+        <div class="product-price">฿230</div>
+      </div>
+      <div class="product-card">
+        <img src="https://www.cosrx.com/media/wysiwyg/lowphcleanser150ml_front_500x500.jpg" alt="COSRX Low pH Cleanser 150ml" />
+        <div class="product-name">COSRX Low pH Cleanser 150ml</div>
+        <div class="product-price">฿540</div>
+      </div>
+    </div>
+    <p class="footer">Untuk info produk lain, silakan chat admin ya 😊</p>
+  </div>
+</body>
+</html>
